@@ -1,0 +1,16 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Bot project saver script",
+  "type": "module",
+  "main": "App.js",
+  "scripts": {
+    "app": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umar",
+  "license": "ISC",
+  "dependencies": {
+    "grammy": "^1.22.4"
+  }
+}
