@@ -47,10 +47,10 @@ let loca14 = {name :'Дигорское ущелье',photo :'https://pesh-lesh.
 let loca15 = {name :'Долина реки Баксан',photo :'https://кбр07.рф/wp-content/uploads/2022/04/%D0%9C%D0%B0%D1%80%D1%83%D1%85%D0%B095.jpg',latitude:43.28150493789301,longitude:42.49469972079474};
 let loca16 = {name :'Эльбрус',photo :'https://a.travelcdn.mts.ru/travel-media/ceo_elbrus_Main_6570920d0f.png',latitude:43.28150493789301,longitude:42.445490300693734};
 let loca17 = {name :'Эльтюбю',photo :'https://avatars.dzeninfra.ru/get-zen_doc/4421565/pub_60d9e0718eed6404cb5228cb_60d9e7b397db6e3a2ddc5458/scale_1200',latitude:43.267719276049924,longitude:43.15194212355418};
-
+let loca18 = {name :'налчик'}
 
 let mas = [
-loca1,loca2,loca3,loca4,loca5,loca6,loca7,loca8,loca9,loca10,loca11,loca12,loca13,loca14,loca15,loca16,loca17
+loca1,loca2,loca3,loca4,loca5,loca6,loca7,loca8,loca9,loca10,loca11,loca12,loca13,loca14,loca15,loca16,loca17,loca18
 ]
 
 
