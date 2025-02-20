@@ -85,7 +85,7 @@ loca1,loca2,loca3,loca4,loca5,loca6,loca7,loca8,loca9,loca10,loca11,loca12,loca1
 .text('Верхняя Балкария').row().resized().oneTime().text('Вольное Аул').row().resized().oneTime().text('Водопад Адай-Су').row().resized().oneTime()
 .text('Голубые озера').row().resized().oneTime().text('Гора Чегет').row().resized().oneTime().text('Горный курорт Чегет').row().resized().oneTime()
 .text('Долина Нарзанов').row().resized().oneTime().text('Дигорское ущелье').row().resized().oneTime().text('Долина реки Баксан').row().resized().oneTime()
-.text('Эльбрус').row().resized().oneTime().text('Эльтюбю').row().resized().oneTime().text('Нальчик ').row().resized().oneTime()
+.text('Эльбрус').row().resized().oneTime().text('Эльтюбю').row().resized().oneTime().text('Нальчик').row().resized().oneTime()
     await ctx.reply ('Вот меню',{
       reply_markup:menu
     })
