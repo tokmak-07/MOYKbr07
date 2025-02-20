@@ -290,6 +290,7 @@ await ctx.replyWithLocation(43.35152791131177, 42.445490300693734)
 await ctx.replyWithLocation(43.267719276049924, 43.15194212355418)
  }) 
 bot.hears('Налчик',async(ctx)=>{
+  await ctx.replyWithPhoto('https://www.google.com/imgres?q=%D0%BD%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6e%2F%25D0%2591%25D0%25B5%25D0%25BB%25D1%258B%25D0%25B9_%25D0%25B4%25D0%25BE%25D0%25BC_%25D0%259A%25D0%2591%25D0%25A0.jpg&imgrefurl=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259D%25D0%25B0%25D0%25BB%25D1%258C%25D1%2587%25D0%25B8%25D0%25BA&docid=QACWRWZW9aFEsM&tbnid=54U33uL_JOAXRM&vet=12ahUKEwiW9_rssNKLAxXUX_EDHYd7BsoQM3oECBgQAA..i&w=640&h=415&hcb=2&ved=2ahUKEwiW9_rssNKLAxXUX_EDHYd7BsoQM3oECBgQAA')
   await ctx.reply(`Нальчик — это уютный, зелёный город у подножия Кавказских гор. Он раскинулся в широкой долине на высоте около 500 метров над уровнем моря,
  окружённый горами с трёх сторон. Город славится своими минеральными источниками, мягким климатом и санаторно-курортной зоной.
 Здесь нет суеты мегаполисов, но чувствуется своя атмосфера — неспешная, гостеприимная.
