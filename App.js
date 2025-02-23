@@ -48,9 +48,9 @@ let loca15 = {name :'Долина реки Баксан',photo :'https://кбр0
 let loca16 = {name :'Эльбрус',photo :'https://a.travelcdn.mts.ru/travel-media/ceo_elbrus_Main_6570920d0f.png',latitude:43.28150493789301,longitude:42.445490300693734};
 let loca17 = {name :'Эльтюбю',photo :'https://avatars.dzeninfra.ru/get-zen_doc/4421565/pub_60d9e0718eed6404cb5228cb_60d9e7b397db6e3a2ddc5458/scale_1200',latitude:43.267719276049924,longitude:43.15194212355418};
 let loca18 = {name :'Нальчик'}
-
+let loca19 = {name : 'Водопад Штеви (или Девичьи косы)'}
 let mas = [
-loca1,loca2,loca3,loca4,loca5,loca6,loca7,loca8,loca9,loca10,loca11,loca12,loca13,loca14,loca15,loca16,loca17,loca18
+loca1,loca2,loca3,loca4,loca5,loca6,loca7,loca8,loca9,loca10,loca11,loca12,loca13,loca14,loca15,loca16,loca17,loca18,loca19
 ]
 
 
@@ -85,8 +85,9 @@ loca1,loca2,loca3,loca4,loca5,loca6,loca7,loca8,loca9,loca10,loca11,loca12,loca1
 .text('Верхняя Балкария').row().resized().oneTime().text('Вольное Аул').row().resized().oneTime().text('Водопад Адай-Су').row().resized().oneTime()
 .text('Голубые озера').row().resized().oneTime().text('Гора Чегет').row().resized().oneTime().text('Горный курорт Чегет').row().resized().oneTime()
 .text('Долина Нарзанов').row().resized().oneTime().text('Дигорское ущелье').row().resized().oneTime().text('Долина реки Баксан').row().resized().oneTime()
-.text('Эльбрус').row().resized().oneTime().text('Эльтюбю').row().resized().oneTime().text('Нальчик').row().resized().oneTime()
-    await ctx.reply ('Вот меню',{
+.text('Эльбрус').row().resized().oneTime().text('Эльтюбю').row().resized().oneTime().text('Нальчик').row().resized().oneTime().text('Водопад Штеви (или Девичьи косы)')
+.row().resized().oneTime()    
+await ctx.reply ('Вот меню',{
       reply_markup:menu
     })
 
@@ -197,6 +198,15 @@ bot.hears('Водопад Адай-Су',async(ctx) =>{
 В целом, водопад Адай-Су является одним из главных природных достояний Кабардино-Балкарии,
 привлекающим множество туристов и путешественников, желающих насладиться его красотой и спокойствием.`)
 await ctx.replyWithLocation(43.47030234437053, 43.2721902390699)
+})
+bot.hears('Водопад Штеви (или Девичьи косы)',async(ctx) =>{
+await ctx.reply(`Водопад Штеви, также известный как Девичьи косы, находится в Кабардино-Балкарии.
+Этот живописный водопад расположен в горном ущелье на реке Штеви. Он привлекает внимание туристов благодаря своей красоте и при
+Название «Девичьи косы» связано с тем, что водопад выглядит как каскад, напоминающий длинные косы,
+что ассоциируется с женской прелестью и нежностью. Водопад окружен горами, зелеными лесами, а также другими достопримечательностями,
+которые делают это место популярным среди туристов, особенно тех, кто увлекается пешими.
+Доступ к водопаду требует некоторой скорости, поскольку он находится в горной местности и ведет тропы,
+но результат того стоит — это один из красивейших условий мест Кабардино-Балкарии.`)
 })
 bot.hears('Голубые озера',async(ctx) =>{
   await ctx.replyWithPhoto('https://img.tourister.ru/files/2/6/6/9/7/1/4/5/original.jpg?t=1717082818416')
