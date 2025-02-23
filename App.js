@@ -47,7 +47,7 @@ let loca14 = {name :'Дигорское ущелье',photo :'https://pesh-lesh.
 let loca15 = {name :'Долина реки Баксан',photo :'https://кбр07.рф/wp-content/uploads/2022/04/%D0%9C%D0%B0%D1%80%D1%83%D1%85%D0%B095.jpg',latitude:43.28150493789301,longitude:42.49469972079474};
 let loca16 = {name :'Эльбрус',photo :'https://a.travelcdn.mts.ru/travel-media/ceo_elbrus_Main_6570920d0f.png',latitude:43.28150493789301,longitude:42.445490300693734};
 let loca17 = {name :'Эльтюбю',photo :'https://avatars.dzeninfra.ru/get-zen_doc/4421565/pub_60d9e0718eed6404cb5228cb_60d9e7b397db6e3a2ddc5458/scale_1200',latitude:43.267719276049924,longitude:43.15194212355418};
-let loca18 = {name :'Нальчик '}
+let loca18 = {name :'Нальчик'}
 
 let mas = [
 loca1,loca2,loca3,loca4,loca5,loca6,loca7,loca8,loca9,loca10,loca11,loca12,loca13,loca14,loca15,loca16,loca17,loca18
@@ -289,7 +289,7 @@ await ctx.replyWithLocation(43.35152791131177, 42.445490300693734)
 В Эльтюбю время, кажется, замедляется, позволяя вам отдохнуть от суеты и проникнуться спокойствием и умиротворением.`)
 await ctx.replyWithLocation(43.267719276049924, 43.15194212355418)
  }) 
-bot.hears('Нальчик ',async(ctx)=>{
+bot.hears('Нальчик',async(ctx)=>{
   await ctx.replyWithPhoto('https://www.google.com/imgres?q=%D0%BD%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6e%2F%25D0%2591%25D0%25B5%25D0%25BB%25D1%258B%25D0%25B9_%25D0%25B4%25D0%25BE%25D0%25BC_%25D0%259A%25D0%2591%25D0%25A0.jpg&imgrefurl=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259D%25D0%25B0%25D0%25BB%25D1%258C%25D1%2587%25D0%25B8%25D0%25BA&docid=QACWRWZW9aFEsM&tbnid=54U33uL_JOAXRM&vet=12ahUKEwiW9_rssNKLAxXUX_EDHYd7BsoQM3oECBgQAA..i&w=640&h=415&hcb=2&ved=2ahUKEwiW9_rssNKLAxXUX_EDHYd7BsoQM3oECBgQAA')
   await ctx.reply(`Нальчик — это уютный, зелёный город у подножия Кавказских гор. Он раскинулся в широкой долине на высоте около 500 метров над уровнем моря,
  окружённый горами с трёх сторон. Город славится своими минеральными источниками, мягким климатом и санаторно-курортной зоной.
